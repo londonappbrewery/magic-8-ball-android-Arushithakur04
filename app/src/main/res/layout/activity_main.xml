@@ -8,7 +8,7 @@
     tools:context=".MainActivity" >
 
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:background="#26ade0">
 
@@ -20,10 +20,10 @@
             android:layout_marginBottom="606dp"
             android:background="#3F51B5"
             android:gravity="center_horizontal"
-            android:text="Make everyday decisions easier!"
+            android:text="@string/title"
             android:textAllCaps="false"
             android:textColor="#FFFF"
-            android:textSize="22dp"
+            android:textSize="22sp"
             android:textStyle="italic" />
 
         <ImageView
@@ -42,6 +42,7 @@
             android:layout_marginEnd="13dp"
             android:layout_marginRight="13dp"
             android:layout_marginBottom="235dp"
+            android:contentDescription="TODO"
             app:srcCompat="@drawable/ball1" />
 
         <Button
@@ -59,7 +60,7 @@
             android:layout_marginEnd="146dp"
             android:layout_marginRight="146dp"
             android:background="#3F51B5"
-            android:text="Ask"
+            android:text="@string/button_name"
             android:textColor="#FFFF"
             android:textStyle="italic" />
     </RelativeLayout>
